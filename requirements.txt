@@ -1,0 +1,16 @@
+# Marigold V2 needs the Qwen-Image-Edit classes (diffusers >= 0.35), a PEFT
+# LoRA adapter, and bitsandbytes for the 4-bit DiT.
+diffusers>=0.35.0
+peft>=0.14.0
+bitsandbytes>=0.45.0
+transformers>=4.51.0
+accelerate>=1.0.0
+safetensors>=0.4.0
+huggingface_hub>=0.30.0
+matplotlib>=3.5.0
+
+# OpenCV is used for the Lanczos/bilinear resizes when present, matching the
+# reference implementation. It is deliberately not pinned here: most ComfyUI
+# installs already ship cv2 under one of several distribution names, and the
+# nodes fall back to PIL/torch when it is missing.
+# opencv-python

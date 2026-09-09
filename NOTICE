@@ -1,0 +1,15 @@
+ComfyUI-Marigold-v2
+
+This node pack ports inference code from Marigold V2
+(https://github.com/huawei-bayerlab/marigold-v2),
+Copyright 2026 Huawei Technologies Co., Ltd., licensed under the
+Apache License, Version 2.0.
+
+Marigold V2 itself includes code derived from Marigold
+(https://github.com/prs-eth/Marigold),
+Copyright 2023-2025 Marigold Team, ETH Zurich, also Apache 2.0.
+
+The model weights are distributed separately by their respective authors:
+  - Qwen/Qwen-Image-Edit-2509
+  - huawei-bayerlab/marigold-v2-0
+Consult those repositories for their license terms.
